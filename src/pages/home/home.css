@@ -1,0 +1,168 @@
+:root{
+  --fond: "Roboto";
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.swiper {
+    width: 1200px;
+    height: 300px;
+    padding: 20px !important;
+    
+  }
+  
+  .swiper-slide {
+    width: 232px;
+    height: 266px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 3px 3px 8px #a5a5a5;
+    transition: 0.2s !important;
+  }
+  
+.swiper-slide:hover{
+  box-shadow: 10px 10px 10px #515151;
+}
+
+.swiper-slide:active{
+  box-shadow: 3px 3px 6px #4e4e4e;
+}
+
+  .homesSwiper .swiper-slide img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+  }
+
+  .swiper-slide img:hover{
+    filter: drop-shadow(1px 1px 10px rgb(45, 45, 45));
+  }
+
+  .slide5 img{
+    width: 230px;
+    height: 130px;
+  }
+
+  .slide6 img{
+    width: 250px;
+  }
+
+  .slide7 img{
+    width: 250px;
+  }
+
+  /* -------------------------create carts--------------------- */
+
+  .homeCarts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-block: 60px;
+  }
+  
+  .homeCard{
+    width: 350px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px #898989;
+    border-radius: 16px;
+    padding: 15px;
+    transition: 0.2s;
+  }
+
+  .homeCard:hover{
+    box-shadow: 6px 6px 10px #444444;
+  }
+
+  .homeCard:active{
+    box-shadow: 2px 2px 3px #242424;
+  }
+
+  .homeCard img:hover{
+    filter: drop-shadow(1px 1px 10px #000000);
+  }
+
+  .cardMain img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .cardMain p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--fond);
+  }
+
+  .recommend{
+    display: flex;;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .recommend p{
+    font-weight: 700;
+    font-family: var(--fond);
+  }
+
+  .cardInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+
+  .cardInfo p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #72767C;
+    font-family: var(--fond);
+  }
+
+  .cardDes{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .cardDes p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #72767C;
+    font-family: var(--fond);
+  }
+
+  .modal{
+    position: relative;
+}
+
+.condition{
+    position: absolute;
+  bottom: -50px;
+  left: -40px;
+  background-color: rgba(0,0,0, 0.8);
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 15px;
+  border-radius: 15px;
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal:hover .condition{
+    opacity: 1;
+}
+

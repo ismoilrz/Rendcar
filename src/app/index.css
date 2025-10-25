@@ -1,0 +1,17 @@
+.wrap{
+    padding: 30px 24px;
+    
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.content{
+    /* position: relative; */
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    height: 79vh;
+    margin-top: 42px;
+    padding: 24px;
+    overflow: auto;
+}

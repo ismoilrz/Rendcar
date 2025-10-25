@@ -1,0 +1,111 @@
+:root{
+    --fond: "Roboto";
+}
+
+.lamboMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.lamboCart{
+    width: 330px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 2px 3px 8px #949494;
+    transition: 0.3s;
+}
+
+.lamboCart:hover{
+    box-shadow: 10px 10px 10px #515151;
+}
+
+.lamboCart:active{
+      box-shadow: 3px 3px 6px #262626;
+
+}
+
+.cartMain:nth-child(2) img{
+    height: 140px;
+}
+
+.lamboRecommend{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lamboRecommend p{
+    font-weight: 700;
+    font-family: var(--fond);
+}
+
+.cartMain img{
+    cursor: pointer;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.cartMain p{
+    font-family: var(--fond);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cartMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;  
+}
+.setMenu{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cartMenu p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #72767C;
+    font-family: var(--fond);
+}
+
+.setMenu p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #72767C;
+    font-family: var(--fond);
+}
+
+.setMenu img:hover{
+    filter: drop-shadow(2px 2px 5px #000000);
+}
+
+.modal{
+    position: relative;
+}
+
+.condition{
+    position: absolute;
+  bottom: -50px;
+  left: -40px;
+  background-color: rgba(0,0,0, 0.8);
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 15px;
+  border-radius: 15px;
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal:hover .condition{
+    opacity: 1;
+}

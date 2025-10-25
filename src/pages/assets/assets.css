@@ -1,0 +1,380 @@
+:root{
+    --fondN: "Roboto";
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+
+.assetsImg h1{
+    font-family: var(--fondN);
+    font-size: 32px;
+    font-weight: 700;
+    padding-block: 25px 30px;
+    animation: h1 0.5s;
+}
+
+@keyframes h1{
+    0%{transform: translateX(2000px);}
+    100%{transform: translateX(0);}
+}
+
+.assetsImg img{
+    width: 600px;
+    height: 430px;
+    animation: img 2s;
+}
+
+@keyframes img{
+
+    0%{border-radius: 50px;}
+    100%{}
+}
+
+.carPrice{
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 25px 30px;
+}
+
+.carPrice img{
+    animation: pImg 1s;
+}
+
+@keyframes pImg{
+    0%{transform: translateX(2000px);}
+    100%{transform: translateX(0);}
+}
+
+.carPrice h1{
+    font-family: var(--fondN);
+    font-size: 24px;
+    font-weight: 700;
+    animation: pH1 1.5s;
+}
+
+@keyframes pH1{
+    0%{transform: translateX(2000px);}
+    100%{transform: translateX(0);}
+}
+
+.userImage img{
+    width: 60px;
+    height: 60px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 13px 0 0 18px;
+}
+
+.userName{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.userName p{
+    font-family: var(--fondN);
+    font-size: 14px;
+    font-weight: 500;
+    color: #B5B5B5;
+}
+
+.userName p:nth-child(1){
+    font-family: var(--fondN);
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 40px;
+    padding-block: 19px 5px;
+}
+
+.location p{
+    font-family: var(--fondN);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.accound{
+    display: flex;
+    gap: 50px;
+}
+
+.accound p{
+    font-family: var(--fondN);
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.visit p{
+    font-family: var(--fondN);
+    font-size: 12px;
+    font-weight: 500;
+    color: #757474;
+    padding-right: 32px;
+}
+
+.userInfo{
+    border: 3px solid #d9d9d9;
+    border-radius: 16px;
+    width: 490px;
+    animation: info 4s;
+}
+
+@keyframes info{
+    0%{transform: scale(1);}
+    50%{transform: scale(1);}
+    80%{transform: scaleX(-1);}
+    100%{transform: scale(1);} 
+}
+
+.contact{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    padding-top: 23px;
+    background-color: #d9d9d9;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding-left: 40px;
+}
+
+.tel p{
+    font-family: var(--fondN);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email{
+    display: flex;
+    justify-content: end;
+    padding-right: 32px;
+    padding-block: 10px 24px;
+    gap: 40px;
+}
+
+.emailTxt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.emailTxt p{
+    font-family: var(--fondN);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sent p{
+    font-family: var(--fondN);
+    font-size: 12px;
+    font-weight: 500;
+    color: #757474;
+}
+
+.cardDec{
+    display: flex;  
+    gap: 100px;
+    margin-block: 30px 55px;
+}
+
+.cardDec1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: dec1 1s;
+}
+
+@keyframes dec1{
+    0%{transform: translateX(2000px);}
+    100%{transform: translateX(0);}
+}
+
+.cardDec2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: dec2 1.5s;
+}
+
+@keyframes dec2{
+    0%{transform: translateX(2000px);}
+    100%{transform: translateX(0);}
+}
+
+.carInfo{
+    display: flex;
+    gap: 15px;
+}
+
+.carInfo p{
+    font-family: var(--fondN);
+    font-weight: 500;
+}
+
+.heroSwiper .swiper {
+  width: 100%;
+}
+
+.heroSwiper .swiper-slide {
+    margin-left: -15px;
+    width: 250px;
+    height: 140px;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSwiper .swiper-slide:hover{
+    box-shadow: none;
+}
+.heroSwiper .swiper-slide:active{
+    box-shadow: none;
+
+}
+.heroSwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}  
+
+
+.heroSwiper .swiper-slide img:hover{
+    filter: none;
+}
+
+/* ------------------------------ */
+
+.hero1Swiper .swiper {
+  width: 100%;
+  height: 300px;  
+}
+
+.hero1Swiper .swiper-slide {
+    box-shadow: none;
+    margin-left: -15px;
+    width: 250px;
+    height: 140px;
+    border-radius: 0;
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+    width: 250px;
+    height: 140px;
+}
+.key  img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero1Swiper .swiper-slide:hover{
+    box-shadow: none;
+}
+.hero1Swiper .swiper-slide:active{
+    box-shadow: none;
+}
+
+.secSwiper img{
+    width: 100%;        
+  height: 140px;     
+  object-fit: cover;
+}
+.secSwiper2 img {
+  width: 100%;       
+  height: 140px;      
+  object-fit: cover;  
+}
+
+.hero1Swiper .swiper-slide img:hover{
+    filter: none;
+}
+
+.secSwiper{
+    position: absolute;
+    bottom: -475px;
+    left: 50%;
+    z-index: 500;
+    transform: translateX(-50%);
+}
+
+.not{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.pinimg.com/originals/2d/85/b0/2d85b07b13c6b95753df2788e3f0d4db.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid #d9d9d9;
+    border-radius: 8px;
+}
+
+.not p{
+    font-family: var(--fondN);
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.notShadow{
+    width: 100%;
+    height: 100%;
+    background-color: #0004;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notAs{
+    width: 500px;
+    height: 100px;
+    background-color: #fff5;
+    border: 4px solid #b8b8b8;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: blur 1.4s;
+}
+
+@keyframes blur{
+    0%{filter: blur(100px);}
+    100%{filter: blur(0);}
+}
