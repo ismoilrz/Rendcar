@@ -5,13 +5,22 @@ import DriwerPage from "./draywer";
 
 const BookingPage = () => {
      const [open, setOpen] = useState(false)
-    const openProfil = () => {
+     const [cars, setCars] = useState(AllCars);
+
+     const openProfil = () => {
         setOpen(!open)
     }
 
     const close = () => {
         setOpen(!open)
     }
+
+    const handleAddCar = (newCar) => {
+    setCars(prev => [...prev, newCar]);
+    close(); 
+  }
+
+
 
     return <>
              <section className="booking">
@@ -21,7 +30,7 @@ const BookingPage = () => {
                 </div>
              </section>
              <section className="bookingCards">
-                {AllCars.map((item, index) => {
+                {cars.map((item, index) => {
                     return (
                         <div className="bookingCard" key={index}>
                             <div className="bookingCrtRecommend">
@@ -45,7 +54,8 @@ const BookingPage = () => {
                     )
                 })}
              </section>
-             {open && <DriwerPage close={close} />}
+
+             {open && <DriwerPage close={close} onAdd={handleAddCar} />}
              </>
 }
 
