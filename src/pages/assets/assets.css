@@ -13,7 +13,7 @@
     font-size: 32px;
     font-weight: 700;
     padding-block: 25px 30px;
-    animation: h1 0.5s;
+    animation: h1 0.5s ease-out;
 }
 
 @keyframes h1{
@@ -24,7 +24,7 @@
 .assetsImg img{
     width: 600px;
     height: 430px;
-    animation: img 2s;
+    animation: img 2s ease-in-out;
 }
 
 @keyframes img{
@@ -42,7 +42,7 @@
 }
 
 .carPrice img{
-    animation: pImg 1s;
+    animation: pImg 1s ease-out;
 }
 
 @keyframes pImg{
@@ -54,7 +54,7 @@
     font-family: var(--fondN);
     font-size: 24px;
     font-weight: 700;
-    animation: pH1 1.5s;
+    animation: pH1 1.5s ease-out;
 }
 
 @keyframes pH1{
@@ -140,7 +140,7 @@
     border: 3px solid #d9d9d9;
     border-radius: 16px;
     width: 490px;
-    animation: info 4s;
+    animation: info 4s ease-out;
 }
 
 @keyframes info{
@@ -208,7 +208,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    animation: dec1 1s;
+    animation: dec1 1s ease-out;
 }
 
 @keyframes dec1{
@@ -220,7 +220,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    animation: dec2 1.5s;
+    animation: dec2 1.5s ease-out;
 }
 
 @keyframes dec2{
@@ -382,7 +382,7 @@
     align-items: center;
     justify-content: center;
 
-    animation: blur 1.4s;
+    animation: blur 1.4s ease-out;
 }
 
 @keyframes blur{

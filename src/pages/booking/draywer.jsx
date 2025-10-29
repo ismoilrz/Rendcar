@@ -4,6 +4,7 @@ import "./booking.css"
 
 const DriwerPage = ({close, onAdd}) => {
     const [form, setForm] = useState({
+
     title: "",
     recommend: "",
     sold: "",
@@ -49,18 +50,26 @@ const DriwerPage = ({close, onAdd}) => {
                             </div>
                         </div>
                         <div className="inputs">
-                           <input name="title" type="text" placeholder="Car Name" onChange={handleChange} /> 
-                           <input name="recommend" type="text" placeholder="Recommend" onChange={handleChange} /> 
-                           <input name="sold" type="text" placeholder="Sold" onChange={handleChange} />
-                           <input name="hour" type="text" placeholder="Hour" onChange={handleChange} />
-                           <input type="file" accept="image/*" onChange={handleImage} />
-
+                           <div className="inputsTxt">
+                            <input name="title" type="text" placeholder="Car Name" onChange={handleChange} /> 
+                            <input name="recommend" type="text" placeholder="Recommend" onChange={handleChange} /> 
+                            <input name="sold" type="text" placeholder="Sold" onChange={handleChange} />
+                            <input name="hour" type="text" placeholder="Hour" onChange={handleChange} />
+                           </div>
+                          <div className="inputsImg">
                             {form.img && (
-        <div>
-          <p>Preview:</p>
-          <img src={form.img} alt="preview" width={150} />
-        </div>
-      )}
+                                  <div className="preview">
+                                    <img src={form.img} alt="preview" width={150} />
+                                  </div>
+                                )}
+                                <label htmlFor="upload" className="uploadBtn">Upload Image</label>
+                                <input type="file" id="upload" accept="image/*" onChange={handleImage} />
+                          </div>
+                          {form.img && (
+                                  <div className="previewBig">
+                                    <img src={form.img} alt="preview" width={150} />
+                                  </div>
+                                )}
                         </div>
                     </div>
                 </section>   
