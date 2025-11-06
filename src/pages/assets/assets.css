@@ -299,7 +299,7 @@
     width: 250px;
     height: 140px;
 }
-.key  img{
+.key img{
     width: 100%;
     height: 100%;
 }
@@ -327,21 +327,19 @@
     filter: none;
 }
 
-.heroSwiper{
-    margin-right: -600px;
-}
+
 
 .secSwiper2{
     margin-top: -130px;
 }
 
 .secSwiper{
-    margin-top: -1 0px;
+    margin-top: -10px;
     /* position: absolute; */
     /* bottom: -475px; */
     /* left: 50%; */
     z-index: 500;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 }
 
 .not{
