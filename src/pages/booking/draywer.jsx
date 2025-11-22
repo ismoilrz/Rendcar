@@ -1,5 +1,10 @@
 import { useState } from "react";
 
+import icon1 from "../../assets/icon1.svg";
+import icon2 from "../../assets/icon2.svg";
+import icon3 from "../../assets/icon3.svg";
+import icon4 from "../../assets/icon4.svg";
+
 import "./booking.css"
 
 const DriwerPage = ({close, onAdd}) => {
@@ -28,7 +33,14 @@ const DriwerPage = ({close, onAdd}) => {
   };
 
    const handleAdd = () => {
-    const newCar = { key: Date.now(), ...form };
+    const newCar = { key: Date.now(), 
+      
+      icon1: icon1,
+      icon2: icon2,
+      icon3: icon3,
+      icon4: icon4,
+      
+      ...form };
     onAdd(newCar); 
     setForm({ title: "", recommend: "", sold: "", hour: "", img: "" });
   };
