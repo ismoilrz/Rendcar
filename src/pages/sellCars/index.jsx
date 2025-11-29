@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./sellCars.css";
 import { Data3d } from "../../constants/3DData";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
+import CustomTooltip from "../../components/Tooltip";
 
 const SellCarsPage = () => {
   const car = Data3d[0];
@@ -41,13 +42,16 @@ const SellCarsPage = () => {
           onMouseLeave={handleMouseUp}
           onMouseMove={handleMouseMove}
         >
-          <img src={car.frmes[currentFrame]} alt={car.name} className="car3d" />
+          <div className="sellCarsCarInfo">
+            <h1>{car.name}</h1>
+            <img src={car.frmes[currentFrame]} alt={car.name} className="car3d" />
+          </div>
         </div>
 
         <div className="sellCarsDio">
-          <h2>Weekly Mileage</h2>
+          <h2>Tracking History</h2>
           <div className="millageDio">
-            <ResponsiveContainer width="100%" height={350}>
+            <ResponsiveContainer width="100%" height={320}>
 
               <BarChart data={car.weeklyMileage} margin={{ top: 20, right: 30 }}>
 
@@ -63,7 +67,7 @@ const SellCarsPage = () => {
                 fontSize={12} 
                 fontWeight={500} />
 
-                <Tooltip />
+                <Tooltip content={<CustomTooltip />} />
                 <Bar 
                 dataKey="km" 
                 radius={[30, 30, 0, 0]}>
