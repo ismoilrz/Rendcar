@@ -72,34 +72,10 @@ const DriwerPage = ({close, onAdd}) => {
 
                 <div className="inputs">
                     <div className="inputsTxt">
-                        <input 
-                            name="title" 
-                            type="text" 
-                            placeholder="Car Name" 
-                            value={form.title} 
-                            onChange={handleChange} 
-                        /> 
-                        <input 
-                            name="recommend" 
-                            type="number" 
-                            placeholder="Recommend %" 
-                            value={form.recommend} 
-                            onChange={handleChange} 
-                        /> 
-                        <input 
-                            name="sold" 
-                            type="number" 
-                            placeholder="Sold in K" 
-                            value={form.sold} 
-                            onChange={handleChange} 
-                        />
-                        <input 
-                            name="hour" 
-                            type="number" 
-                            placeholder="Price per hour" 
-                            value={form.hour} 
-                            onChange={handleChange} 
-                        />
+                        <input name="title" type="text" placeholder="Car Name" value={form.title} onChange={handleChange} /> 
+                        <input name="recommend" type="number" placeholder="Recommend %" value={form.recommend} onChange={handleChange} /> 
+                        <input name="sold" type="number" placeholder="Sold in K" value={form.sold} onChange={handleChange} />
+                        <input name="hour" type="number" placeholder="Price per hour" value={form.hour} onChange={handleChange} />
                     </div>
 
                     <div className="inputsImg">

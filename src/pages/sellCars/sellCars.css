@@ -1,0 +1,50 @@
+:root{
+    --fond: "Roboto";
+}
+
+.sellCars h1{
+    font-family: var(--fond);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.sellCarsMain{
+    display: flex;
+    gap: 40px;
+}
+
+.sellCarsCar{
+    width: 720px;
+    height: 420px;
+    background-color: #fff;
+    background-image: url("/src/assets/Frame.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sellCarsCar:hover{
+    cursor: grab;
+}
+
+.sellCarsCar:active{
+    cursor: grab;
+}
+
+.sellCarsCar img{
+    width: 70%;
+    height: 70%;
+}
+
+.sellCarsDio{
+    width: 400px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding-inline: 1   0px;
+}
+
