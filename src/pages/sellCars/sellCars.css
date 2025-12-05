@@ -11,11 +11,11 @@
 
 .sellCarsMain{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
 }
 
 .sellCarsCar{
-    width: 720px;
+    width: 740px;
     height: 420px;
     background-color: #fff;
     background-image: url("/src/assets/Frame.png");
@@ -55,11 +55,12 @@
 }
 
 .sellCarsDio{
-    width: 400px;
+    width: 410px;
     height: 420px;
     background-color: #fff;
     border-radius: 16px;
-    padding-inline: 1   0px;
+    padding-inline: 10px;
+    margin-right: 50px;
 }
 
 .sellCarsDio h2{
@@ -68,3 +69,83 @@
     font-weight: 700;
     margin: 25px;
 }
+
+.offersTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+}
+
+.offersTop h2{
+    font-family: var(--fond);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carSelectCon{
+    display: flex;
+    gap: 8px;
+    margin-right: 50px;
+}
+
+.carSelect{
+    appearance: none;       
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    text-align: center;
+    
+    width: 120px;
+    height: 36px;
+    border: none;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 1px 1px 1px #c1c1c1;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #A162F7;
+}
+
+.marketing{
+    display: flex;
+    align-items: center;
+    width: 96%;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.excellent{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.excellent::after{
+    content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 40px solid #fff;
+}
+
+.excellent span {
+    height: 40px;
+  position: absolute;
+  bottom: -20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  font-weight: 700;
+  color: #00c851;
+  z-index: 15;
+}
+
+

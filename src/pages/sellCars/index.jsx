@@ -3,6 +3,8 @@ import "./sellCars.css";
 import { Data3d } from "../../constants/3DData";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 import CustomTooltip from "../../components/Tooltip";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 const SellCarsPage = () => {
   const car = Data3d[0];
@@ -16,13 +18,7 @@ const SellCarsPage = () => {
       const deltaX = e.clientX - dragStart;
       if (Math.abs(deltaX) > 50) {
         setCurrentFrame((prev) =>
-          deltaX > 0
-            ? prev === 0
-              ? car.frmes.length - 1
-              : prev - 1
-            : prev === car.frmes.length - 1
-            ? 0
-            : prev + 1
+          deltaX > 0 ? prev === 0 ? car.frmes.length - 1 : prev - 1 : prev === car.frmes.length - 1 ? 0 : prev + 1
         );
         setDragStart(e.clientX);
       }
@@ -82,6 +78,54 @@ const SellCarsPage = () => {
               </BarChart>
             </ResponsiveContainer>
           </div>
+        </div>
+      </div>
+      <div className="offersTop">
+        <h2>Offers</h2>
+        <div className="carSelectCon">
+          <select className="carSelect">
+              <option value="" disabled selected>New ▼</option>
+              <option value="bmw">BMW</option>
+              <option value="lamborghini">Lamborghini</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+              <option value="porsche">Porsche</option>
+          </select>
+          <select className="carSelect">
+              <option value="bmw">BMW ▼</option>
+              <option value="lamborghini">Lamborghini ▼</option>
+              <option value="mercedes">Mercedes ▼</option>
+              <option value="audi">Audi ▼</option>
+              <option value="porsche">Porsche ▼</option>
+          </select>
+        </div>
+      </div>
+      <div className="marketing">
+        <div className="marketingUser">
+          <h2>{Data3d[0].marketing.user}</h2>
+          <div className="avaragePrice">
+            <p><span>{Data3d[0].marketing.averagePrice}</span> avarage price</p>
+          </div>
+          <div className="marketAvarage">
+            <p>market avarage <span>{Data3d[0].marketing.marketAverage}</span></p>
+          </div>
+          <span>→</span>
+        </div>
+        <div className="excellent">
+     <CircularProgressbar
+        value={Data3d[0].marketing.excellentImpressionShareV}
+        text={Data3d[0].marketing.excellentImpressionShare}
+        strokeWidth={18} 
+        styles={buildStyles({
+          pathColor: "#70CF97",       
+          trailColor: "#F3F3F3",      
+          strokeLinecap: "butt",
+          rotation: 1.5,             
+          textColor: "#00c851",       
+          textSize: "16px",
+        })}
+      />
+       <span>Excellent</span>
         </div>
       </div>
     </section>

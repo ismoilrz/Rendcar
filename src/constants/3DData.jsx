@@ -41,5 +41,18 @@ export const Data3d = [
         km: 40 
       },
     ],
+     marketing: {
+      user: "Killian James",
+      averagePrice: "$167,702",
+      marketAverage: "$165,507",
+      excellentImpressionShare: "45%",
+      excellentImpressionShareV: 45,
+      decisionValue: "$811",
+      modelSpend: {
+        blue: "$1,150",
+        red: "$1,060",
+      },
+      spendPerUnit: "$811",
+    },
   },
 ]
