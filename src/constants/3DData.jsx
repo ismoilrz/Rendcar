@@ -47,6 +47,9 @@ export const Data3d = [
       marketAverage: "$165,507",
       excellentImpressionShare: "45%",
       excellentImpressionShareV: 45,
+      desDioValue1: 72,
+      desDioValue2: 83,
+      desDioValue3: 65,
       decisionValue: "$811",
       modelSpend: {
         blue: "$1,150",

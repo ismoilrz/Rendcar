@@ -148,4 +148,76 @@
   z-index: 15;
 }
 
+.excellent p {
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+}
 
+
+
+
+.desDio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diagramWrap {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle.big {
+  width: 100px;
+  height: 100px;
+}
+
+.circle.middle {
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+ 
+}
+
+.circle.small {
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 20px;
+}
+
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centerText h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #00c851;
+}
+
+.centerText p {
+  margin: 0;
+  font-size: 11px;
+  color: #777;
+}
+
+.circle.small .CircularProgressbar-text {
+  font-family: var(--fond);
+  font-size: 26px;
+  font-weight: 700;
+  fill: #242731;
+}
