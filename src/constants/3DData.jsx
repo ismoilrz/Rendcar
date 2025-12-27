@@ -1,3 +1,7 @@
+import dio1 from "../assets/dio1.svg";
+import dio2 from "../assets/dio2.svg";
+import dio3 from "../assets/dio3.svg";
+
 export const Data3d = [
      {
     name: "BMW M8",
@@ -52,6 +56,9 @@ export const Data3d = [
       desDioValue3: 65,
       decisionValue: "$811",
       modelSpend: {
+        src1: dio1,
+        src2: dio2,
+        src3: dio3,
         blue: "$1,150",
         red: "$1,060",
       },

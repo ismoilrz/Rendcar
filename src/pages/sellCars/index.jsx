@@ -109,7 +109,9 @@ const SellCarsPage = () => {
                       <div className="marketAvarage">
                         <p>market avarage <span>{Data3d[0].marketing.marketAverage}</span></p>
                       </div>
-                      <span>→</span>
+                      <div className="arR">
+                        <span>→</span>
+                      </div>
                     </div>
                     <div className="excellent">
                 <CircularProgressbar
@@ -121,8 +123,8 @@ const SellCarsPage = () => {
                       trailColor: "#F3F3F3",      
                       strokeLinecap: "butt",
                       rotation: 1.5,             
-                      textColor: "#00c851",       
-                      textSize: "16px",
+                      textColor: "#242731",
+                      textSize: "18px",
                     })}
                   />
                   <span>Excellent</span>
@@ -165,12 +167,31 @@ const SellCarsPage = () => {
                             })}
                           />
                         </div>
-
-                      
-
                       </div>
                     </div>
+                          
+                        <div className="modelSpend">
+                          <div className="spendLogo">
+                            <img src={Data3d[0].marketing.modelSpend.src1} alt="logo" />
+                          </div>
+                          <h5>{Data3d[0].marketing.modelSpend.blue}</h5>
+                          <p>Model Spend</p>
+                        </div>
 
+                        <div className="notModelSpend">
+                          <div className="notSpendLogo">
+                            <img src={Data3d[0].marketing.modelSpend.src2} alt="logo" />
+                          </div>
+                          <h5>{Data3d[0].marketing.modelSpend.red}</h5>
+                          <p>Model Spend</p>
+                        </div>
+                        <div className="unitTurned">
+                          <div className="unitLogo">
+                            <img src={Data3d[0].marketing.modelSpend.src3} alt="logo" />
+                          </div>
+                          <h5>{Data3d[0].marketing.spendPerUnit}</h5>
+                          <p>Spend per Unit Turned</p>
+                        </div>
                   </div>
                 </section>
               );

@@ -111,10 +111,55 @@
 .marketing{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     width: 96%;
     height: 170px;
     background-color: #fff;
     border-radius: 16px;
+}
+
+.marketingUser h2{
+  font-family: var(--fond);
+  font-size: 20px;
+  font-weight: 700;
+  color: #242731;
+}
+
+.avaragePrice{
+  padding-block: 3px;
+}
+
+.avaragePrice p{
+  font-family: var(--fond);
+  font-size: 12px;
+  font-weight: 500;
+  color: #A4A5A6;
+}
+
+.avaragePrice p span{
+  font-family: var(--fond);
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF6464;
+}
+
+.marketAvarage p{
+  font-family: var(--fond);
+  font-size: 12px;
+  font-weight: 500;
+  color: #72767C;
+}
+
+.arR span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 20px;
+  border-radius: 16px;
+  margin-top: 10px;
+  background-color: #FF6370;
+  color: #fff;
 }
 
 .excellent{
@@ -137,6 +182,7 @@
 }
 
 .excellent span {
+  font-family: var(--fond);
     height: 40px;
   position: absolute;
   bottom: -20px; 
@@ -149,13 +195,12 @@
 }
 
 .excellent p {
+  font-family: var(--fond);
+  color: #72767C;
     white-space: nowrap;
     font-size: 14px;
     font-weight: 700;
 }
-
-
-
 
 .desDio {
   display: flex;
@@ -215,9 +260,110 @@
   color: #777;
 }
 
+.excellent .CircularProgressbar-text{
+  font-family: var(--fond);
+  font-weight: 700;
+}
+
 .circle.small .CircularProgressbar-text {
   font-family: var(--fond);
   font-size: 26px;
   font-weight: 700;
   fill: #242731;
+}
+
+.modelSpend{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modelSpend h5{
+  font-family: var(--fond);
+  font-size: 20px;
+  font-weight: 700;
+  color: #407EF9;
+  padding-block: 2px;
+}
+
+.modelSpend p{
+  font-family: var(--fond);
+  font-size: 12px;
+  font-weight: 500;
+  color: #808191;
+}
+
+.notModelSpend{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.notModelSpend p{
+  font-family: var(--fond);
+  font-size: 12px;
+  font-weight: 500;
+  color: #808191;
+}
+
+.notModelSpend h5{
+  font-family: var(--fond);
+  font-size: 20px;
+  font-weight: 700;
+  color: #FF6370;
+  padding-block: 2px;
+}
+
+.unitTurned{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.unitTurned h5{
+   font-family: var(--fond);
+  font-size: 20px;
+  font-weight: 700;
+  color: #A162F7;
+  padding-block: 2px;
+}
+
+.unitTurned p{
+  font-family: var(--fond);
+  font-size: 12px;
+  font-weight: 500;
+  color: #808191;
+}
+
+.spendLogo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #407EF91A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notSpendLogo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #FF7E861A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unitLogo {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #A162F71A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
