@@ -192,7 +192,6 @@ const SellCarsPage = () => {
                           <h5>{Data3d[0].marketing.spendPerUnit}</h5>
                           <p>Spend per Unit Turned</p>
                         </div>
-                        <p>r</p>
                   </div>
                 </section>
               );
