@@ -28,7 +28,7 @@ const SellCarsPage = () => {
   const today = new Date().toLocaleDateString("en-US", { weekday: "short" });
 
               return (
-                <section className="sellCars">
+                <section className="sellCars container">
                   <h1>Sell Cars</h1>
                   <div className="sellCarsMain">
                     <div
@@ -192,6 +192,7 @@ const SellCarsPage = () => {
                           <h5>{Data3d[0].marketing.spendPerUnit}</h5>
                           <p>Spend per Unit Turned</p>
                         </div>
+                        <p>r</p>
                   </div>
                 </section>
               );
