@@ -72,13 +72,13 @@ export const Data3d = [
     name: "LAMBORGHINI URUS",
     frmes: [
       "https://static.vecteezy.com/system/resources/previews/048/028/417/non_2x/lamborghini-urus-suv-on-isolated-transparent-background-png.png",
-      "https://cloud01.topsite.nl/lamborghini.stgallen/car/27/silhouette-menu-2234.png",
-      "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=scale-down,width=1280/sites/default/files/article_images/urus-02.jpg?itok=w1B8CBAh",
-      "https://auto.vercity.ru/gallery/img/automobiles/Lamborghini/2019-11%20Lamborghini%20Urus%20by%20Mansory/900x/1575191923_85.jpg",
-      "https://larte-design.com/storage/app/media/kits/lamborghini/urus-se/coming-soon/renders/grey-lambo-urus-se-facelift-rear.webp",
-      "https://images.dealer.com/ddc/vehicles/2025/Lamborghini/Urus/SUV/trim_SE_59705f/perspective/side-left/2025_76.png",
-      "https://larte-design.ru/storage/app/media/kits/lamborghini/urus-s/colors/grigio-nimbus/lamborgnini-urus-carbon-upgrade-grigio-nimbus.webp",
       "https://cdna.artstation.com/p/marketplace/presentation_assets/004/213/754/large/file.jpg?1736692421",
+      "https://larte-design.ru/storage/app/media/kits/lamborghini/urus-s/colors/grigio-nimbus/lamborgnini-urus-carbon-upgrade-grigio-nimbus.webp",
+      "https://images.dealer.com/ddc/vehicles/2025/Lamborghini/Urus/SUV/trim_SE_59705f/perspective/side-left/2025_76.png",
+      "https://larte-design.com/storage/app/media/kits/lamborghini/urus-se/coming-soon/renders/grey-lambo-urus-se-facelift-rear.webp",
+      "https://auto.vercity.ru/gallery/img/automobiles/Lamborghini/2019-11%20Lamborghini%20Urus%20by%20Mansory/900x/1575191923_85.jpg",
+      "https://www.classicdriver.com/cdn-cgi/image/format=auto,fit=scale-down,width=1280/sites/default/files/article_images/urus-02.jpg?itok=w1B8CBAh",
+      "https://cloud01.topsite.nl/lamborghini.stgallen/car/27/silhouette-menu-2234.png",      
     ],
     weeklyMileage: [
       {
@@ -136,13 +136,13 @@ export const Data3d = [
     name: "MERCEDES-BENZ AMG GTR",
     frmes: [
       "https://i.pinimg.com/originals/20/cc/f1/20ccf199c3a66677eae4f8ce39bc61d7.png",
-      "https://i.pinimg.com/originals/ca/76/de/ca76de0d8929ad3e6e267649c146930c.png",
-      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-25.jpg",
-      "https://www.renderhub.com/squir/mercedes-amg-gt-r-pro-2020/mercedes-amg-gt-r-pro-2020-05.jpg",
-      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-07.jpg",
-      "https://www.renderhub.com/lowmod/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-04.jpg",
-      "https://file.kelleybluebookimages.com/kbb/base/evox/CP/12097/2018-Mercedes-Benz-Mercedes-AMG%20GT-front_12097_032_1822x708_297_cropped.png",
       "https://assets.meinauto.de/image/upload/q_auto:eco/f_auto/dpr_1.0/c_scale,h_614,w_920/v1/prod/mercedes/amggt/1/2roadster/mercedes_18amggtroadsterrs1e_frontview.png",
+      "https://file.kelleybluebookimages.com/kbb/base/evox/CP/12097/2018-Mercedes-Benz-Mercedes-AMG%20GT-front_12097_032_1822x708_297_cropped.png",
+      "https://www.renderhub.com/lowmod/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-04.jpg",
+      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-07.jpg",
+      "https://www.renderhub.com/squir/mercedes-amg-gt-r-pro-2020/mercedes-amg-gt-r-pro-2020-05.jpg",
+      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-25.jpg",
+      "https://i.pinimg.com/originals/ca/76/de/ca76de0d8929ad3e6e267649c146930c.png", 
     ],
     weeklyMileage: [
       {
@@ -200,13 +200,13 @@ export const Data3d = [
     name: "AUDI RS6",
     frmes: [
       "https://p.turbosquid.com/ts-thumb/no/TUgCLN/B0/3/png/1712139361/1920x1080/fit_q87/c95eb67b70e5b0edb6961678144c45c11b797043/3.jpg",
-      "https://aristocar.be/wp-content/uploads/2019/01/audi_rs6.png",
-      "https://files.hodoor.world/main/f7086efb-a736-4c24-aea2-7b2f0768fd90.png",
-      "https://avatars.mds.yandex.net/get-autoru-vos/5231844/dc97171666d2ee7bdba690bb1a25932a/1200x900",
-      "https://elitecarsale.com/wp-content/uploads/2025/03/snimek-obrazovky-2021-08-20-v-1.webp",
-      "https://i.pinimg.com/736x/6d/b0/f9/6db0f967b8b45b92c2acfea6840f054b.jpg",
-      "https://files.hodoor.world/main/81cdad61-8755-4033-950e-5b6bc079bc0b.png",
       "https://avatars.mds.yandex.net/get-autoru-vos/17038387/71a7458e4b52ca6c1d456b8dae6fc10f/1200x900",
+      "https://files.hodoor.world/main/81cdad61-8755-4033-950e-5b6bc079bc0b.png",
+      "https://i.pinimg.com/736x/6d/b0/f9/6db0f967b8b45b92c2acfea6840f054b.jpg",
+      "https://elitecarsale.com/wp-content/uploads/2025/03/snimek-obrazovky-2021-08-20-v-1.webp",
+      "https://avatars.mds.yandex.net/get-autoru-vos/5231844/dc97171666d2ee7bdba690bb1a25932a/1200x900",
+      "https://files.hodoor.world/main/f7086efb-a736-4c24-aea2-7b2f0768fd90.png",
+      "https://aristocar.be/wp-content/uploads/2019/01/audi_rs6.png", 
     ],
     weeklyMileage: [
       {
