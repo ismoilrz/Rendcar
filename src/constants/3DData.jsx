@@ -452,80 +452,16 @@ export const Data3d = [
 
      {
     key: 8,
-    name: "MERCEDES-BENZ AMG GTR",
+    name: "MERCEDES-BENZ GT63S",
     frmes: [
-      "https://i.pinimg.com/originals/20/cc/f1/20ccf199c3a66677eae4f8ce39bc61d7.png",
-      "https://i.pinimg.com/originals/ca/76/de/ca76de0d8929ad3e6e267649c146930c.png",
-      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-25.jpg",
-      "https://www.renderhub.com/squir/mercedes-amg-gt-r-pro-2020/mercedes-amg-gt-r-pro-2020-05.jpg",
-      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-07.jpg",
-      "https://www.renderhub.com/lowmod/mercedes-benz-amg-gt-coupe-2024/mercedes-benz-amg-gt-coupe-2024-04.jpg",
-      "https://file.kelleybluebookimages.com/kbb/base/evox/CP/12097/2018-Mercedes-Benz-Mercedes-AMG%20GT-front_12097_032_1822x708_297_cropped.png",
-      "https://assets.meinauto.de/image/upload/q_auto:eco/f_auto/dpr_1.0/c_scale,h_614,w_920/v1/prod/mercedes/amggt/1/2roadster/mercedes_18amggtroadsterrs1e_frontview.png",
-    ],
-    weeklyMileage: [
-      {
-        day: "Mon",
-        km: 27 
-      },
-      {
-        day: "Tue",
-        km: 17 
-      },
-      {
-        day: "Wed",
-        km: 14 
-      },
-      {
-        day: "Thu",
-        km: 17 
-      },
-      {
-        day: "Fri",
-        km: 28 
-      },
-      {
-        day: "Sat",
-        km: 34 
-      },
-      {
-        day: "Sun",
-        km: 31 
-      },
-    ],
-     marketing: {
-      user: "Bill Martin",
-      averagePrice: "$93,873",
-      marketAverage: "$88,508",
-      excellentImpressionShare: "42%",
-      excellentImpressionShareV: 42,
-      desDioValue1: 71,
-      desDioValue2: 77,
-      desDioValue3: 45,
-      decisionValue: "$843",
-      modelSpend: {
-        src1: dio1,
-        src2: dio2,
-        src3: dio3,
-        blue: "$1,020",
-        red: "$1,005",
-      },
-      spendPerUnit: "$843",
-    },
-  },
-
-     {
-    key: 9,
-    name: "AUDI RS6",
-    frmes: [
-      "https://p.turbosquid.com/ts-thumb/no/TUgCLN/B0/3/png/1712139361/1920x1080/fit_q87/c95eb67b70e5b0edb6961678144c45c11b797043/3.jpg",
-      "https://aristocar.be/wp-content/uploads/2019/01/audi_rs6.png",
-      "https://files.hodoor.world/main/f7086efb-a736-4c24-aea2-7b2f0768fd90.png",
-      "https://avatars.mds.yandex.net/get-autoru-vos/5231844/dc97171666d2ee7bdba690bb1a25932a/1200x900",
-      "https://elitecarsale.com/wp-content/uploads/2025/03/snimek-obrazovky-2021-08-20-v-1.webp",
-      "https://i.pinimg.com/736x/6d/b0/f9/6db0f967b8b45b92c2acfea6840f054b.jpg",
-      "https://files.hodoor.world/main/81cdad61-8755-4033-950e-5b6bc079bc0b.png",
-      "https://avatars.mds.yandex.net/get-autoru-vos/17038387/71a7458e4b52ca6c1d456b8dae6fc10f/1200x900",
+      "https://airows.com/.image/t_share/MTY0NDA5MjUyNjgzNzIwMjc3/432234.png",
+      "https://i.ebayimg.com/images/g/hGAAAOSwlk1nL0xb/s-l1600.jpg",
+      "https://assets.superhivemarket.com/uploads%2F1580288833055-0001.png",
+      "https://d27nqrvkk22y65.cloudfront.net/product_image/image/769863/big_7cf583982f.jpg",
+      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-63/mercedes-benz-amg-gt-63-15.jpg",
+      "https://www.renderhub.com/zifir3d/mercedes-benz-amg-gt-63/mercedes-benz-amg-gt-63-29.jpg",
+      "https://i.ytimg.com/vi/xoOCPkX1a-8/maxresdefault.jpg",
+      "https://preview.free3d.com/img/2018/08/2400318987842880839/fw4a6ohv.jpg",
     ],
     weeklyMileage: [
       {
@@ -534,19 +470,19 @@ export const Data3d = [
       },
       {
         day: "Tue",
-        km: 22 
+        km: 13 
       },
       {
         day: "Wed",
-        km: 11 
+        km: 21 
       },
       {
         day: "Thu",
-        km: 17 
+        km: 27 
       },
       {
         day: "Fri",
-        km: 24 
+        km: 11 
       },
       {
         day: "Sat",
@@ -554,27 +490,91 @@ export const Data3d = [
       },
       {
         day: "Sun",
-        km: 32 
+        km: 23 
       },
     ],
      marketing: {
-      user: "Joul Parking",
-      averagePrice: "$137,381",
-      marketAverage: "$132,844",
-      excellentImpressionShare: "58%",
-      excellentImpressionShareV: 58,
-      desDioValue1: 88,
-      desDioValue2: 62,
-      desDioValue3: 89,
-      decisionValue: "$643",
+      user: "Mark Gets",
+      averagePrice: "$158,427",
+      marketAverage: "$153,529",
+      excellentImpressionShare: "53%",
+      excellentImpressionShareV: 53,
+      desDioValue1: 82,
+      desDioValue2: 74,
+      desDioValue3: 91,
+      decisionValue: "$892",
       modelSpend: {
         src1: dio1,
         src2: dio2,
         src3: dio3,
-        blue: "$1,057",
-        red: "$1,023",
+        blue: "$1,550",
+        red: "$1,320",
       },
-      spendPerUnit: "$643",
+      spendPerUnit: "$892",
+    },
+  },
+
+     {
+    key: 9,
+    name: "AUDI RS Q8",
+    frmes: [
+      "https://www.renderhub.com/zifir3d/audi-rs-q8/audi-rs-q8-04.jpg",
+      "https://cdna.artstation.com/p/marketplace/presentation_assets/001/472/328/large/file.jpg?1641837147",
+      "https://preview.free3d.com/img/2020/04/2408249858109474216/c8ezzf41.jpg",
+      "https://www.renderhub.com/zifir3d/audi-rs-q8/audi-rs-q8-12.jpg",
+      "https://p.turbosquid.com/ts-thumb/xW/fhB0Bk/NTlG78Id/2020_audi_rs_q8_0003/jpg/1592504808/1920x1080/fit_q87/5318d391052554c62436f990fa57ecde18489363/2020_audi_rs_q8_0003.jpg",
+      "https://cdnb.artstation.com/p/marketplace/presentation_assets/001/472/327/large/file.jpg?1641837124",
+      "https://www.renderhub.com/zifir3d/audi-rs-q8/audi-rs-q8-18.jpg",
+      "https://preview.free3d.com/img/2019/12/2201665707983243042/asdqtwud.jpg",
+    ],
+    weeklyMileage: [
+      {
+        day: "Mon",
+        km: 17 
+      },
+      {
+        day: "Tue",
+        km: 14 
+      },
+      {
+        day: "Wed",
+        km: 9 
+      },
+      {
+        day: "Thu",
+        km: 29 
+      },
+      {
+        day: "Fri",
+        km: 13 
+      },
+      {
+        day: "Sat",
+        km: 22 
+      },
+      {
+        day: "Sun",
+        km: 18 
+      },
+    ],
+     marketing: {
+      user: "Jof Piter",
+      averagePrice: "$92,734",
+      marketAverage: "$89,122",
+      excellentImpressionShare: "62%",
+      excellentImpressionShareV: 62,
+      desDioValue1: 79,
+      desDioValue2: 83,
+      desDioValue3: 88,
+      decisionValue: "1,530",
+      modelSpend: {
+        src1: dio1,
+        src2: dio2,
+        src3: dio3,
+        blue: "$1,780",
+        red: "$1,640",
+      },
+      spendPerUnit: "$1,530",
     },
   },
 
