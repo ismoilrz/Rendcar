@@ -580,65 +580,65 @@ export const Data3d = [
 
      {
     key: 10,
-    name: "PORSCHE 911 GT3",
+    name: "PORSCHE TAYCAN TURBO S",
     frmes: [
-      "https://www.renderhub.com/zifir3d/porsche-911-gt3/porsche-911-gt3-04.jpg",
-      "https://p.turbosquid.com/ts-thumb/tf/l2NR3o/dw/porsche_911_gt3_2022_0011/jpg/1615124778/1920x1080/fit_q87/136e476ee0fc2a69038cbfda71cc90c71a37c38d/porsche_911_gt3_2022_0011.jpg",
-      "https://assets.superhivemarket.com/store/productimage/657860/image/b77bbd813c6770cced49362477da17a7.jpg",
-      "https://p.turbosquid.com/ts-thumb/tf/l2NR3o/vQ/porsche_911_gt3_2022_doors_0004/jpg/1615124813/1920x1080/fit_q87/7bee0a76e49931574cb6006a863cca8b9fddde1b/porsche_911_gt3_2022_doors_0004.jpg",
-      "https://www.renderhub.com/zifir3d/porsche-911-gt3/porsche-911-gt3-09.jpg",
-      "https://bucket.carmodel.com/images/cm-lg/167078_2-1.jpg",
-      "https://www.autogiz.com/product_images/jpeg/Porsche-911-GT3-Touring-2022.jpg",
-      "https://assets.superhivemarket.com/store/productimage/657859/image/9752c942506e259ff4b2cf430e06143e.jpg",
+      "https://preview.free3d.com/img/2022/05/3190232130332394560/0dryszzw.jpg",
+      "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711cYLvsi60rFkXqXUnBEgAHYByY9AJ%25OggSPvuB1pkbgI7DMJphteDkrNqLHn4XpXn4ZYovIS0rhO3RMFYqwhXjbWBbaoD2OFmI1BSCAW%25k4Zo9Zs1l2PY6QzpCYnL8W6eFayIEVRr4Hv39h73QqXj4AUon16a%25JshQ3RmWBiAhI7gVdcJItUlhDfBSJspAnPn7SiZJyNydlctBvov1yf8dXFt4yPED6u5MeN9nReLDVo4y7zJJhF%25vUqYINuWXsO5FUeV6iTC6BzhRc2G6gqA7fQdiPED6u%25gSN9jZsVu57Zx5%25YLjL7sLFRfH438nhVEeE",
+      "https://i.pinimg.com/originals/7b/36/06/7b360637692d601c5b8bc13734101fef.png",
+      "https://static.3d-baza.com/original_models/125753/7b6f88763f224c96b39be715.jpg",
+      "https://preview.free3d.com/img/2022/05/3190232130332394560/xeng1czy.jpg",
+      "https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXkBuNYdMGF4tl3U0%25z8rMbjAuWgRcgVGPK0rh4mctLsR6EXdGvdTmJKlEnDzCBLMkYCIFF7gKpGl3UtpQDcFG8PVYnfurnY35yPewS24CvNzxuWFGXoq1q5Wr6FObOevwRuT06sqx7e2HfqQDcFGSZrYnfur8ch5yPewU3YCvNzxKEWGXoq1SoUr6FObUd9wRAyYib32yl3UIWGK5YW1TG87hXuci60cV",
+      "https://static.3d-baza.com/original_models/125753/bd227f4e13864f249afcee18.jpg",
+      "https://iili.io/HSDzgGs.webp",
     ],
     weeklyMileage: [
       {
         day: "Mon",
-        km: 22 
-      },
-      {
-        day: "Tue",
-        km: 15 
-      },
-      {
-        day: "Wed",
         km: 17 
       },
       {
+        day: "Tue",
+        km: 11 
+      },
+      {
+        day: "Wed",
+        km: 9 
+      },
+      {
         day: "Thu",
-        km: 24 
+        km: 16 
       },
       {
         day: "Fri",
-        km: 29 
+        km: 20 
       },
       {
         day: "Sat",
-        km: 18 
+        km: 24 
       },
       {
         day: "Sun",
-        km: 34 
+        km: 14 
       },
     ],
      marketing: {
-      user: "Brad Tomas",
-      averagePrice: "$182,458",
-      marketAverage: "$181,322",
-      excellentImpressionShare: "38%",
-      excellentImpressionShareV: 38,
-      desDioValue1: 61,
-      desDioValue2: 73,
-      desDioValue3: 47,
-      decisionValue: "$476",
+      user: "Maveric Freddy",
+      averagePrice: "$92,643",
+      marketAverage: "$89,854",
+      excellentImpressionShare: "41%",
+      excellentImpressionShareV: 41,
+      desDioValue1: 73,
+      desDioValue2: 82,
+      desDioValue3: 57,
+      decisionValue: "$694",
       modelSpend: {
         src1: dio1,
         src2: dio2,
         src3: dio3,
-        blue: "$832",
-        red: "$654",
+        blue: "$943",
+        red: "$892",
       },
-      spendPerUnit: "$476",
+      spendPerUnit: "$694",
     },
   },
   
