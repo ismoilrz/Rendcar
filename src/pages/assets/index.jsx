@@ -14,7 +14,8 @@ const AssetsPage = () => {
     return <div className="not">
                 <div className="notShadow">
                     <div className="notAs">
-                      <p>Hali mashina tanlanmadi !</p>
+                      <h2>Mashina tanlanmagan!</h2>
+                      <p>Mashina ma'lumotlarini ko'rish uchun oldin mashinani tanlang</p>
                     </div>
                 </div>
            </div>;

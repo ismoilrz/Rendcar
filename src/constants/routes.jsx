@@ -30,7 +30,7 @@ export const routes = [
     },
     {
         id: 5,
-        path: "/service",
+        path: "/service/:carId?",
         element: <ServicePage />,
     },
     {

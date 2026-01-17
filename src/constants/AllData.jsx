@@ -1740,7 +1740,7 @@ export const AllCars = [
                 },
                 {
                     key: 12,
-                    img: "https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=264H&client=byoc&paint=P0C4H&fabric=FLKSW&sa=S01T5,S0248,S02VF,S0302,S0316,S0319,S0322,S03AG,S0430,S0431,S0459,S0493,S0494,S04GQ,S04LN,S0508,S0534,S0544,S0552,S05AC,S05AS,S0688,S06AC,S06AK,S06C4,S06NX,S06U2,S06WC,S0712,S0760,S0775&quality=70&bkgnd=transparent&w=9900&h=9000&x=700&y=1000&resp=png&angle=270",
+                    img: "https://platform.cstatic-images.com/in/v2/stock_photos/5842b349-45c0-4c91-adf4-2e23fadb0343/06067d6a-226a-4d5e-9874-10f8da6107e7.png",
                     recommend: "61% Recommend",
                     condition: "Condition: 93%",
                     title: "BMW M4 G82",
