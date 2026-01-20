@@ -178,7 +178,19 @@ export const AllCars = [
                     id: 8,
                     url: "https://avatars.mds.yandex.net/i?id=7f129f64310d62187ec9d54e43099bf2c40fc2b6-12480042-images-thumbs&n=13"
                 },
-            ]
+            ],
+            service: {
+                station: {
+                    current: "B9",
+                    booked: ["A4", "A8", "B3", "B7"],
+                },
+                prices: {
+                    brakeFluid: 32,
+                    diagnostics: 25,
+                    externalWash: 8,
+                },
+            serviseTime: "5, 2h"
+            }
         },
         {
             key: 2,
