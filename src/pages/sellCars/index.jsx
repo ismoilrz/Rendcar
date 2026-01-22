@@ -21,6 +21,9 @@ const SellCarsPage = () => {
     }
   };
 
+  let price = "$23";
+  parseInt(price)
+
   const handleMouseDown = (e) => setDragStart(e.clientX);
   const handleMouseUp = () => setDragStart(null);
   const handleMouseMove = (e) => {

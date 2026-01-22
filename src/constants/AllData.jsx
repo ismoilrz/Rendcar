@@ -185,11 +185,26 @@ export const AllCars = [
                     booked: ["A4", "A8", "B3", "B7"],
                 },
                 prices: {
-                    brakeFluid: 32,
-                    diagnostics: 25,
-                    externalWash: 8,
+                    brakeFluid: "$32",
+                    diagnostics: "$25",
+                    externalWash: "$8",
                 },
-            serviseTime: "5, 2h"
+            serviseTime: "5, 2h",
+                serviceRequired: {
+                    centerCare: {
+                        price: "$48",
+                        processing: "1 hours",
+                    },
+                    diagnostics: {
+                        price: "$68",
+                        processing: "2 hours",
+                    },
+                    innerCleaning: {
+                        price: "$58",
+                        processing: "1 hours",
+                    },
+
+                }
             }
         },
         {
