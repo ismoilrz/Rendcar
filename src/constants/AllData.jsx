@@ -203,8 +203,39 @@ export const AllCars = [
                         price: "$58",
                         processing: "1 hours",
                     },
-
-                }
+                },
+            serviceSchedule: [
+                 {
+                    id: 1,
+                    label: "Upgrade your favorite car periodically",
+                    date: " Today, 10.00",
+                    price: "$1,200",
+                 },
+                 {
+                    id: 2,
+                    label: "Buy spare parts for suspension",
+                    date: " Today, 14.00",
+                    price: "$1,400",
+                 },
+            ],
+            diagnosticsLevel: [
+                {
+                    id: 1,
+                    percent: 85,
+                },
+                {
+                    id: 2,
+                    percent: 48,
+                },
+                {
+                    id: 3,
+                    percent: 55,
+                },
+                {
+                    id: 4,
+                    percent: 68,
+                },
+            ]
             }
         },
         {
