@@ -1,0 +1,117 @@
+:root{
+    --fond: "Roboto";
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.stationCon{
+    width: 590px;
+}
+
+.stationCon h1{
+    font-family: var(--fond);
+    font-size: 24px;
+    font-weight: 700;
+    color: #242731;
+    margin-block: 10px 24px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  
+}
+
+.station-row {
+  display: flex;
+  gap: 10px; 
+}
+
+.box {
+  width: 50px;
+  height: 70px;
+  background-color: white;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--fond);
+  font-size: 20px;
+  font-weight: 700;
+  color: #72767C;
+}
+
+.booked { background-color: #FF6370; color: white; } 
+.current { background-color: #A162F7; color: white; } 
+
+.boxInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 27px;
+}
+
+.boxWhite{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boxWhite div{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #72767C;
+    border-radius: 100%;
+}
+
+.boxWhite p{
+    font-family: var(--fond);
+    color: #72767C;
+}
+
+.boxRed{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boxRed div{
+    width: 12px;
+    height: 12px;
+    background-color: #FF6370;
+    border-radius: 100%;
+}
+
+.boxRed p{
+    font-family: var(--fond);
+    color: #72767C;
+}
+
+.boxPur{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boxPur div{
+    width: 12px;
+    height: 12px;
+    background-color: #A162F7;
+    border-radius: 100%;
+}
+
+.boxPur p{
+    font-family: var(--fond);
+    color: #72767C;
+}

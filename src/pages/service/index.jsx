@@ -1,5 +1,6 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { AllCars } from "../../constants/AllData";
+import "./service.css"
 
 const ServicePage = () => {
   const { carId } = useParams();
@@ -20,7 +21,50 @@ const ServicePage = () => {
 
   return (
     <section className="services-page container">
-      <h1>{car.title}</h1>
+      <div className="serviceLeftCon">  
+        <div className="stationCon">
+          <h1>Service Station</h1>
+          <div className="service">
+            <div className="station-row">
+              {["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"].map((id) => (
+                <div 
+                  key={id} 
+                  className={`box ${id === car.service.station.current ? 
+                    "current" : car.service.station.booked.includes(id) ?
+                     "booked" : ""}`}>
+                  {id}
+                </div>
+              ))}
+            </div>
+
+            <div className="station-row">
+              {["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"].map((id) => (
+                <div 
+                  key={id} 
+                  className={`box ${id === car.service.station.current ? 
+                    "current" : car.service.station.booked.includes(id) ? 
+                    "booked" : ""}`}>
+                  {id}
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="boxInfo">
+            <div className="boxWhite">
+              <div></div>
+              <p>Ready</p>
+            </div>
+            <div className="boxRed">
+              <div></div>
+              <p>Booked</p>
+            </div>
+            <div className="boxPur">
+              <div></div>
+              <p>Current Station</p>
+            </div>
+          </div>
+        </div>
+      </div>
       
       
     </section>
