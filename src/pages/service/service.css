@@ -115,3 +115,112 @@
     font-family: var(--fond);
     color: #72767C;
 }
+
+
+
+
+
+
+
+.yourOrder {
+  width: 590px;
+  border-radius: 14px;
+  margin-top: 35px;
+}
+
+.yourOrderDes{
+    display: flex;
+    gap: 20px;
+}
+
+.orderMain {
+    width: 216px;
+    height: 268px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.orderMain h3 {
+    font-family: var(--fond);
+    font-size: 24px;
+    font-weight: 700;
+    color: #242731;
+    padding-block: 30px 24px;
+}
+
+.orderCircleCon {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderCircle {
+  text-align: center;
+  z-index: 2;
+}
+
+.orderCircle p { color: #72767C; font-size: 14px; font-weight: 700; }
+.orderCircle strong { color: #A162F7; font-size: 20px; }
+
+/* Rangli aylana chiziqlari (Aylana effektini beradi) */
+.circleDecoration {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #70CF97;
+  border-top-color: #70CF97; /* Yashil */
+  border-right-color: #A162F7; /* Binafsha */
+  border-left-color: #FF6370; /* Qizil */
+}
+
+/* Ro'yxat qismi */
+.orderList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  flex: 1;
+  /* margin-left: 40px; */
+}
+
+.orderItem {
+    height: 76px;
+  display: flex;
+  align-items: center;
+  background: #FFF;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 12px; }
+.dot.green { background: #70CF97; }
+.dot.red { background: #FF6370; }
+.dot.purple { background: #A162F7; }
+
+.orderItem p { flex: 1; color: #242730; font-size: 20px; font-weight: 700; font-family: var(--fond); }
+.priceTag { background: #EFE9FF; padding: 4px 8px; border-radius: 4px; color: #A162F7; font-weight: 600; }
+
+/* Pay tugmasi */
+.payBtn {
+    margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  /* padding: 14px; */
+  background: #A162F7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.payBtn:hover { background: #8e44ad; }
