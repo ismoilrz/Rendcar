@@ -5,39 +5,46 @@ import "./components.css";
 import { Icons } from "../constants/Icons";
 
 const MenuBar = () => {
+    const location = useLocation();
 
-    let location = useLocation()
-    return(
-     <div className="menu">
-        <div className="menu__main">
-        <a href="#" className="logo">
-            <img src={LogoImg} alt="logo" />
-        </a>
-        <div className="menubar">
-            {menuData.map((item) => (
-                <Link 
-                    to={item.path}
-                    key={item.key}
-                    className={location.pathname === item.path ? "link active" : "link"}>
-                    <span>{item.icon}</span> <p>{item.label}</p>
+    return (
+        <div className="menu">
+            <div className="menu__main">
+                <Link to="/" className="logo">
+                    <img src={LogoImg} alt="logo" />
                 </Link>
-            ))}    
+
+                <div className="menubar">
+                    {menuData.map((item) => {
+                        const isActive = item.path === "/" 
+                            ? location.pathname === "/" 
+                            : location.pathname.includes(item.path);
+
+                        return (
+                            <Link
+                                to={item.path}
+                                key={item.key}
+                                className={isActive ? "link active" : "link"}
+                            >
+                                <span>{item.icon}</span> 
+                                <p>{item.label}</p>
+                            </Link>
+                        );
+                    })}
+                </div>
+            </div>
+
+            <div className="bot">
+                <Link
+                    className={location.pathname.includes("/setting") ? "link active" : "link"}
+                    to={"/setting"}
+                >
+                    <span><Icons.setting /></span>
+                    <p>Setting</p>
+                </Link>
+            </div>
         </div>
-        </div>
-        <div className="bot">
-            <Link
-                 className={
-                    location.pathname === "/setting"
-                         ? "link active"
-                         : "link"
-                    }
-                     to={"/setting"}>
-                <span>{<Icons.setting />}</span><p>Setting</p>
-            </Link>
-            
-        </div>
-    </div>
-    )
+    );
 }
 
 export default MenuBar;
