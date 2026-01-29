@@ -4,8 +4,14 @@
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     margin-inline: auto;
+}
+
+.services-page{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
 }
 
 .stationCon{
@@ -116,12 +122,6 @@
     color: #72767C;
 }
 
-
-
-
-
-
-
 .yourOrder {
   width: 590px;
   border-radius: 14px;
@@ -168,16 +168,15 @@
 .orderCircle p { color: #72767C; font-size: 14px; font-weight: 700; }
 .orderCircle strong { color: #A162F7; font-size: 20px; }
 
-/* Rangli aylana chiziqlari (Aylana effektini beradi) */
 .circleDecoration {
   position: absolute;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 7px solid #70CF97;
-  border-top-color: #70CF97; /* Yashil */
-  border-right-color: #A162F7; /* Binafsha */
-  border-left-color: #FF6370; /* Qizil */
+  border-top-color: #70CF97; 
+  border-right-color: #A162F7; 
+  border-left-color: #FF6370; 
 }
 
 /* Ro'yxat qismi */
@@ -185,18 +184,17 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-  flex: 1;
-  /* margin-left: 40px; */
+    flex: 1;
 }
 
 .orderItem {
     height: 76px;
-  display: flex;
-  align-items: center;
-  background: #FFF;
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .dot { width: 10px; height: 10px; border-radius: 50%; margin-right: 12px; }
@@ -207,12 +205,10 @@
 .orderItem p { flex: 1; color: #242730; font-size: 20px; font-weight: 700; font-family: var(--fond); }
 .priceTag { background: #EFE9FF; padding: 4px 8px; border-radius: 4px; color: #A162F7; font-weight: 600; }
 
-/* Pay tugmasi */
 .payBtn {
-    margin-top: 20px;
+  margin-top: 20px;
   width: 100%;
   height: 60px;
-  /* padding: 14px; */
   background: #A162F7;
   color: white;
   border: none;
@@ -224,3 +220,111 @@
 }
 
 .payBtn:hover { background: #8e44ad; }
+
+
+
+.serviceRequired h3{
+    font-family: var(--fond);
+    font-size: 24px;
+    font-weight: 700;
+    color: #242731;
+    padding-block: 0px 30px;
+}
+
+.requiredList{
+    width: 450px;
+    height: 320px;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #fff;
+}
+
+.list1{
+    display: flex;
+    gap: 16px;
+}
+
+.list1Icon{
+    width: 48px;
+    height: 48px;
+    background-color: #70CF971A;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list2Icon{
+    width: 48px;
+    height: 48px;
+    background-color: #A162F71A;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list3Icon{
+    width: 48px;
+    height: 48px;
+    background-color: #FF7E861A;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list1Title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list1Title h5{
+    font-family: var(--fond);
+    font-size: 20px;
+    font-weight: 700;
+    color: #5F6165; 
+}
+
+.list1Info{
+    display: flex;
+}
+
+.list1Info span{
+    width: 98px;
+    height: 16px;
+    border-right: 2px solid #ECECEC;
+    font-family: var(--fond);
+    font-weight: 700;
+    color: #242731;
+}
+
+.list1Info p{
+    font-family: var(--fond);
+    font-weight: 500;
+    color: #5F6165;
+    margin-left: 18px;
+}
+
+.greenLine{
+    width: 3px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #70CF97;
+    margin-left: 23px;
+    margin-block: 12px;
+}
+
+.purLine{
+    width: 3px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #A162F7;
+    margin-left: 23px;
+    margin-block: 12px;
+}
+

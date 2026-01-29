@@ -2,13 +2,15 @@ import { useParams } from "react-router-dom";
 import { AllCars } from "../../constants/AllData";
 import "./service.css"
 
+import list1 from "../../assets/list1.svg"
+import list2 from "../../assets/list2.svg"
+import list3 from "../../assets/list3.svg"
+
 const ServicePage = () => {
   const { carId } = useParams();
 
-  // Mashinani qidirish
   const car = carId ? AllCars.find((c) => String(c.key) === String(carId)) : null;
 
-  // 1-HOLAT: Mashina tanlanmagan (Sidebar orqali kirilganda)
   if (!carId) {
     return (
       <section className="services-page no-selection">
@@ -58,49 +60,96 @@ const ServicePage = () => {
 
               <div className="yourOrder">
                 <div className="yourOrderDes">
-  <div className="orderMain">
-    <h3>Your Order</h3>
-    {/* Chap tomondagi aylana (Circular Progress ko'rinishi) */}
-    <div className="orderCircleCon">
-      <div className="orderCircle">
-        <p>Service Time</p>
-        <strong>{car.service.serviseTime}</strong>
-      </div>
-      {/* Bu yerda o'sha rangli aylanani CSS border-top/left bilan yasaymiz */}
-      <div className="circleDecoration"></div>
-    </div>
-  </div>
+                  <div className="orderMain">
+                    <h3>Your Order</h3>
+                    <div className="orderCircleCon">
+                      <div className="orderCircle">
+                        <p>Service Time</p>
+                        <strong>{car.service.serviseTime}</strong>
+                      </div>
+                      <div className="circleDecoration"></div>
+                    </div>
+                  </div>
 
-    <div className="orderList">
-      <div className="orderItem">
-        <div className="dot green"></div>
-        <p>Brake fluid change</p>
-        <span className="priceTag">{car.service.prices.brakeFluid}</span>
-      </div>
-      <div className="orderItem">
-        <div className="dot red"></div>
-        <p>Diagnostics</p>
-        <span className="priceTag">{car.service.prices.diagnostics}</span>
-      </div>
-      <div className="orderItem">
-        <div className="dot purple"></div>
-        <p>External Washing</p>
-        <span className="priceTag">{car.service.prices.externalWash}</span>
-      </div>
-    </div>
+                    <div className="orderList">
+                      <div className="orderItem">
+                        <div className="dot green"></div>
+                        <p>Brake fluid change</p>
+                        <span className="priceTag">{car.service.prices.brakeFluid}</span>
+                      </div>
+                      <div className="orderItem">
+                        <div className="dot red"></div>
+                        <p>Diagnostics</p>
+                        <span className="priceTag">{car.service.prices.diagnostics}</span>
+                      </div>
+                      <div className="orderItem">
+                        <div className="dot purple"></div>
+                        <p>External Washing</p>
+                        <span className="priceTag">{car.service.prices.externalWash}</span>
+                      </div>
+                    </div>
 
-  {/* Jami hisob tugmasi (Dinamik hisoblangan) */}
-  </div>
-  <button className="payBtn">
-    Pay ${
-      parseInt(car.service.prices.brakeFluid.replace("$", "")) +
-      parseInt(car.service.prices.diagnostics.replace("$", "")) +
-      parseInt(car.service.prices.externalWash.replace("$", ""))
-    }
-  </button>
-              </div>
+                  </div>
+                  <button className="payBtn">
+                    Pay ${
+                      parseInt(car.service.prices.brakeFluid.replace("$", "")) +
+                      parseInt(car.service.prices.diagnostics.replace("$", "")) +
+                      parseInt(car.service.prices.externalWash.replace("$", ""))
+                    }
+                  </button>
+                              </div>
 
-      </div>
+                      </div>
+
+                      <div className="serviceRightCon">
+                        <div className="serviceRequired">
+                          <h3>Service Required</h3>
+                          <div className="requiredList">
+                            <div className="list1">
+                              <div className="list1Icon">
+                                <img src={list1} alt="icon" />
+                              </div>
+                                <div className="list1Title">
+                                  <h5>Center Care</h5>
+                                  <div className="list1Info">
+                                    <span>Price : {car.service.serviceRequired.centerCare.price}</span>
+                                    <p>Processing : {car.service.serviceRequired.centerCare.processing}</p>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div className="greenLine"></div>
+                            
+                            <div className="list1">
+                              <div className="list2Icon">
+                                <img src={list2} alt="icon" />
+                              </div>
+                                <div className="list1Title">
+                                  <h5>Diagnostics</h5>
+                                  <div className="list1Info">
+                                    <span>Price : {car.service.serviceRequired.diagnostics.price}</span>
+                                    <p>Processing : {car.service.serviceRequired.diagnostics.processing}</p>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div className="purLine"></div>
+
+                            <div className="list1">
+                              <div className="list3Icon">
+                                <img src={list3} alt="icon" />
+                              </div>
+                                <div className="list1Title">
+                                  <h5>Inner Cleaning</h5>
+                                  <div className="list1Info">
+                                    <span>Price : {car.service.serviceRequired.innerCleaning.price}</span>
+                                    <p>Processing : {car.service.serviceRequired.innerCleaning.processing}</p>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
       
       
     </section>
@@ -108,3 +157,5 @@ const ServicePage = () => {
 };
 
 export default ServicePage;
+
+
