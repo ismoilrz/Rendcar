@@ -2,6 +2,12 @@
     --fond: "Roboto";
 }
 
+/* .container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
 .sellCars h1{
     font-family: var(--fond);
     font-size: 30px;

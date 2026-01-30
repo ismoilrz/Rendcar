@@ -149,6 +149,25 @@ const ServicePage = () => {
                             </div>
                           </div>
                         </div>
+
+                        <div className="serviceSchedule">
+                          <h3>Service Schedule</h3>
+                          <div className="scheduleMain">
+                            {car.service.serviceSchedule.map((item, i) => (
+                              <div key={i} className="scheduleList">
+                                <div className="schedulePin"></div>
+                                <div className="scheduleTitle">
+                                  <h5>{item.label}</h5>
+                                  <div className="scheduleInfo">
+                                    <p>{item.date}</p>
+                                    <p>Fix Price : {item.price}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
                       </div>
       
       

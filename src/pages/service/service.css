@@ -2,16 +2,10 @@
     --fond: "Roboto";
 }
 
-.container{
-    width: 100%;
-    max-width: 1100px;
-    margin-inline: auto;
-}
-
 .services-page{
     display: flex;
     gap: 50px;
-    /* justify-content: space-between; */
+    justify-content: center;
 }
 
 .stationCon{
@@ -161,12 +155,22 @@
 }
 
 .orderCircle {
-  text-align: center;
-  z-index: 2;
+    width: 70%;
+    height: 70%;
+    border-radius: 100%;
+    background-color: #f6f6f6;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: 2;
 }
 
-.orderCircle p { color: #72767C; font-size: 14px; font-weight: 700; }
-.orderCircle strong { color: #A162F7; font-size: 20px; }
+.orderCircle p { color: #72767C; font-size: 14px; font-weight: 700; font-family: var(--fond); max-width: 60px; }
+.orderCircle strong { color: #A162F7; font-size: 24px; font-weight: 700; font-family: var(--fond); }
 
 .circleDecoration {
   position: absolute;
@@ -203,7 +207,22 @@
 .dot.purple { background: #A162F7; }
 
 .orderItem p { flex: 1; color: #242730; font-size: 20px; font-weight: 700; font-family: var(--fond); }
-.priceTag { background: #EFE9FF; padding: 4px 8px; border-radius: 4px; color: #A162F7; font-weight: 600; }
+
+.priceTag {
+     background: #A162F71A; 
+     width: 60px; 
+     height: 30px; 
+     border-radius: 5px; 
+     color: #A162F7; 
+     font-family: var(--fond); 
+     font-size: 20px; 
+     font-weight: 700;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+    }
 
 .payBtn {
   margin-top: 20px;
@@ -221,14 +240,12 @@
 
 .payBtn:hover { background: #8e44ad; }
 
-
-
 .serviceRequired h3{
     font-family: var(--fond);
     font-size: 24px;
     font-weight: 700;
     color: #242731;
-    padding-block: 0px 30px;
+    padding-block: 10px 20px;
 }
 
 .requiredList{
@@ -328,3 +345,52 @@
     margin-block: 12px;
 }
 
+
+
+.serviceSchedule h3{
+    font-family: var(--fond);
+    font-size: 24px;
+    font-weight: 700;
+    color: #242731;
+    padding-block: 30px 4px;
+}
+
+.scheduleList{
+    display: flex;
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.schedulePin{
+    width: 16px;
+    height: 16px;
+    background-color: #A162F7;
+    border-radius: 100%;
+    margin-top: 14px;
+}
+
+.scheduleTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.scheduleTitle h5{
+    font-family: var(--fond);
+    font-size: 18px;
+    font-weight: 500;
+    color: #242731;
+    max-width: 190px;
+}
+
+.scheduleInfo{
+    display: flex;
+    gap: 40px;
+}
+
+.scheduleInfo p{
+    font-family: var(--fond);
+    font-size: 15px;
+    font-weight: 500;
+    color: #72767C;
+}
