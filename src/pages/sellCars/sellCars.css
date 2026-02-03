@@ -2,11 +2,11 @@
     --fond: "Roboto";
 }
 
-/* .container{
+.container{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-} */
+}
 
 .sellCars h1{
     font-family: var(--fond);
@@ -17,7 +17,8 @@
 
 .sellCarsMain{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 
 .sellCarsCar{

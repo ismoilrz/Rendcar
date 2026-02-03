@@ -11,6 +11,16 @@ const ServicePage = () => {
 
   const car = carId ? AllCars.find((c) => String(c.key) === String(carId)) : null;
 
+  ////////////////////// Progress Color /////////////////////
+  const getColor = (value) => {
+  if (value > 70) return "#A162F7"; // Siyohrang
+  if (value > 50) return "#FF764C"; // Olovrang
+  if (value > 30) return "#70CF97"; // Yashil
+  if (value > 0)  return "#F6CC0D"; // Sariq
+  return "#ccc";
+};
+  //----------------------------------------------------------------------
+
   if (!carId) {
     return (
       <section className="services-page no-selection">
@@ -170,10 +180,13 @@ const ServicePage = () => {
                         </div>
 
                       </div>
-      </div>
+                     </div>
                       <div className="diagnosticsLevel">
-                        {car.service.diagnosticsLevel.map((d, i) => (
-                          <div key={i} className="diagnosticsCart">
+                        {car.service.diagnosticsLevel.map((d, i) => {
+                          const barColor = getColor(d.percent)
+
+                          return (
+                            <div key={i} className="diagnosticsCart">
                               <img src={d.src} alt={d.title} />
                               <h5>{d.title}</h5>
                               <div className="diagnosticsNote">
@@ -181,8 +194,27 @@ const ServicePage = () => {
                                 <div className="dLine"></div>
                                 <p>{d.txt2}</p>
                               </div>
+                              <div style={{
+                                height: "3px",
+                                width: "180px",
+                                marginTop: "20px", 
+                                borderRadius: "8px", 
+                                display: "flex", 
+                                background: "#ECECEC", 
+                                alignItems: "center"}} >
+
+                                <div style={{
+                                  width: `${d.percent}%`, 
+                                  height: "5px", 
+                                  borderRadius: "8px", 
+                                  background: barColor,
+                                  transition: 'all 0.4s ease'}}>
+                                </div>
+
+                              </div>
                           </div>
-                        ))}
+                          )
+                          })}
                       </div>
           </section>
   );

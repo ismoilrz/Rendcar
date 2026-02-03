@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import LogoImg from "../assets/logo.svg"
 import { menuData } from "../constants/menuData";
-import "./components.css";
 import { Icons } from "../constants/Icons";
+import LogoImg from "../assets/logo.svg"
+import "./components.css";
 
 const MenuBar = () => {
     const location = useLocation();

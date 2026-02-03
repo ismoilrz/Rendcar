@@ -237,7 +237,7 @@ export const AllCars = [
                     title: "Brake Pads",
                     txt1: "Wheels",
                     txt2: "Still Good",
-                    percent: 48,
+                    percent: 28,
                 },
                 {
                     id: 3,
@@ -245,7 +245,7 @@ export const AllCars = [
                     title: "Steering",
                     txt1: "Drivetrain",
                     txt2: " Need Change",
-                    percent: 55,
+                    percent: 46,
                 },
                 {
                     id: 4,
