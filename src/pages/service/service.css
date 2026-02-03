@@ -2,7 +2,7 @@
     --fond: "Roboto";
 }
 
-.services-page{
+.serviceMain{
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -393,4 +393,52 @@
     font-size: 15px;
     font-weight: 500;
     color: #72767C;
+}
+
+
+
+.diagnosticsLevel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    width: 1100px;
+    height: 210px;
+    background: #fff;
+    border-radius: 16px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+.diagnosticsLevel img{
+    width: 74px;
+    height: 44px;
+}
+
+.diagnosticsLevel h5{
+    font-family: var(--fond);
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+
+    padding-block: 20px 10px;
+}
+
+.diagnosticsNote{
+    font-family: var(--fond);
+    font-weight: 500;
+    color: #808191;
+
+    display: flex;
+    gap: 18px;
+}
+
+.dLine{
+    width: 2px;
+    height: 16px;
+    background: #ECECEC;
 }

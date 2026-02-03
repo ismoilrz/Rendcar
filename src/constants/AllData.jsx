@@ -15,6 +15,10 @@ import icon14 from "../assets/icon14.svg";
 import icon15 from "../assets/icon15.svg";
 import icon16 from "../assets/icon16.svg";
 
+import oillevel from "../assets/oilLevel.svg";
+import brakepads from "../assets/brakePads.svg";
+import steering from "../assets/steering.svg"
+
 
 export const AllCars = [
      {
@@ -221,18 +225,34 @@ export const AllCars = [
             diagnosticsLevel: [
                 {
                     id: 1,
+                    src: oillevel,
+                    title: "Oil LEvel",
+                    txt1: "Engine",
+                    txt2: " Don’t Replace",
                     percent: 85,
                 },
                 {
                     id: 2,
+                    src: brakepads,
+                    title: "Brake Pads",
+                    txt1: "Wheels",
+                    txt2: "Still Good",
                     percent: 48,
                 },
                 {
                     id: 3,
+                    src: steering,
+                    title: "Steering",
+                    txt1: "Drivetrain",
+                    txt2: " Need Change",
                     percent: 55,
                 },
                 {
                     id: 4,
+                    src: oillevel,
+                    title: "Oil Level",
+                    txt1: "Engine",
+                    txt2: "Don’t Replace",
                     percent: 68,
                 },
             ]

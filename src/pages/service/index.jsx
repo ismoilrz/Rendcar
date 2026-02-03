@@ -23,7 +23,8 @@ const ServicePage = () => {
 
   return (
     <section className="services-page container">
-      <div className="serviceLeftCon">  
+      <div className="serviceMain">
+        <div className="serviceLeftCon">  
         <div className="stationCon">
           <h1>Service Station</h1>
           <div className="service">
@@ -169,9 +170,21 @@ const ServicePage = () => {
                         </div>
 
                       </div>
-      
-      
-    </section>
+      </div>
+                      <div className="diagnosticsLevel">
+                        {car.service.diagnosticsLevel.map((d, i) => (
+                          <div key={i} className="diagnosticsCart">
+                              <img src={d.src} alt={d.title} />
+                              <h5>{d.title}</h5>
+                              <div className="diagnosticsNote">
+                                <p>{d.txt1}</p>
+                                <div className="dLine"></div>
+                                <p>{d.txt2}</p>
+                              </div>
+                          </div>
+                        ))}
+                      </div>
+          </section>
   );
 };
 
